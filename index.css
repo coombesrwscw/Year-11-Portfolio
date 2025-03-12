@@ -1,5 +1,14 @@
 
+section {
+    margin-left: 5%;
+    
+}
+
 body {
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
     background-color: rgb(0, 0, 0);
 }
 
@@ -28,14 +37,19 @@ p {
     font-size: 15px;
 }
 
-.italy {
-    font-style: italic;
-}
-
 hr {
     border: 1px solid rgb(255, 207, 207);
     margin: 2px;
     
+}
+
+li {
+    color: white;
+    font-size: 15px;
+}
+
+.italy {
+    font-style: italic;
 }
 
 .topnav {
@@ -44,7 +58,7 @@ hr {
     position: fixed;
     top: 0;
     height: 40px;
-  }
+}
 
 .topnav a {
     color: #f2f2f2;
@@ -54,14 +68,13 @@ hr {
     font-size: 20px;  
     top: 0;
     width: 100%;
- 
 }
 
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #ffffff;
     color: black;
 } 
-  .topnav a.active {
+.topnav a.active {
     background-color: #3c2a4ebf;
     color: white;
 }
