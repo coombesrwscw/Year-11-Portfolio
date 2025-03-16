@@ -78,3 +78,13 @@ li {
     background-color: #3c2a4ebf;
     color: white;
 }
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
