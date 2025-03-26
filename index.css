@@ -59,6 +59,8 @@ li {
     position: fixed;
     top: 0;
     height: 40px;
+    width: 100%;
+    z-index: 1000;
 }
 
 .topnav a {
@@ -103,5 +105,4 @@ button {
 button:hover {
     background: #444;
     transform: scale(110%);
-    box-shadow: 0px 0px 100px 10px rgb(255, 255, 255);
 }
