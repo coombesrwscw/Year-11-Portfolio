@@ -83,14 +83,6 @@ li {
     color: white;
 }
 
-.projects {
-    background-color: #333;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    width: 100%;
-}
-
 button {
     background-color: #4f4f4f;
     color: white;
@@ -105,4 +97,9 @@ button {
 button:hover {
     background: #444;
     transform: scale(110%);
+}
+
+button:active {
+    background-color: #797979;
+    transform: scale(105%);
 }
